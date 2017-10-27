@@ -1,12 +1,12 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-//首页路由
-import home from './home.js';
+//路由
+import pages from './pages.js';
 
 Vue.use(VueRouter);
 
 var routes = [
-    ...home,
+    ...pages,
 ];
 
 const router = new VueRouter({
