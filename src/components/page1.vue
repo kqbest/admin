@@ -46,16 +46,15 @@ export default {
     }
   },
   created() {
-    this.gets();
+    
   },
   methods: {
-    gets() {
-      // this.axios.get('http://192.168.0.48:6001/systemmanagement/templatesetting/sysCommonSign/findTree').then(data => {
-      //   let res = data.returnContent;
-      //   console.log(res);
-      // });
-      //console.log(this.$location.sysMenuManagerfindTree)
-    }
+    // gets() {
+    //   this.$http.get(this.$location.sysMenuManagerfindTree).then(data => {
+    //     let res = data.returnContent;
+    //     console.log(res);
+    //   });
+    // }
   }
 }
 </script>
