@@ -54,7 +54,7 @@ export default {
 }
 </script>
 
-<style lang="less">
+<style lang="less" scoped>
   .page2{
     display: flex;
     flex-direction: column;

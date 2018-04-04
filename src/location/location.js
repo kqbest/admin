@@ -7,6 +7,5 @@ var ckq = {
 var location = {
     ...ckq
 }
-
-//Object.assign(location);
+// Object.assign(location);
 export default location;

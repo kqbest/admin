@@ -1,17 +1,13 @@
 * {
     box-sizing: border-box;
     font-size: 14px;
-    // font-family: 宋体,serif;
     font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
-    // cursor: default;
     user-select: none;
 }
 td,.cell{
     user-select: text;
 }
-
-
-.el-dialog--tiny {
+/*.el-dialog--tiny {
     min-width: 480px;
 }
 
@@ -22,7 +18,7 @@ td,.cell{
 .el-select__tags{
     max-height:30px;
     overflow:hidden;
-}
+}*/
 /*表格控制换行*/
 
 blockquote,
@@ -61,10 +57,10 @@ html {
     height: 100%;
     width: 100%;
     min-width: 1024px;
-    // border:1px solid #000;
-    // min-width: 64px;
+    /*border:1px solid #000;*/
+    /*min-width: 64px;*/
     min-height: 668px;
-    // overflow:hidden;
+    /*overflow:hidden;*/
     overflow-x: hidden;
 }
 
@@ -180,7 +176,7 @@ video {
     float: right;
 }
 
-.tc {
+.t_c {
     text-align: center;
 }
 
@@ -218,7 +214,7 @@ video {
     border-top: 9px solid #fff;
     border-left: 6px solid #fff;
     border-right: 6px solid #fff;
-    // background:red;
+    /*background:red;*/
 }
 ::-webkit-scrollbar-thumb:hover {
     width: 8px;
@@ -226,25 +222,11 @@ video {
     -webkit-border-radius: 18px;
     border: 1px solid #fff;
     background-color: #9f9f9f;
-    // background-color:red;
-}
-
-.mlem{
-    margin-left: 1em !important;
-}
-.el-tabs__content {
-    height: 100%;
-}
-.start_using{
-  color:rgb(0, 153, 51);
-  margin-bottom: 0px !important;
+    /*background-color:red;*/
 }
 .hand{
     cursor:pointer;
 }
 .table td{
     text-align:center;
-}
-.mt10 {
-    margin-top: 10px;
 }
